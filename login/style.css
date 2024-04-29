@@ -1,0 +1,50 @@
+body{
+    background-image: url(../src/pos-credit-card-settlement-instead-cash-settlement-shopping_1359-1162.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+.signup-form{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    box-shadow: 8px 7px 17px -2px rgba(0,0,0,0.62);
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    min-width: 360px;
+    
+}
+.signup-form button{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+input{
+    min-width: 50%;
+}
+label{
+    min-width: 20%;
+}
+
+.inputbox{
+
+    min-width: 50%;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.buttonbox {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
