@@ -58,103 +58,27 @@ a {
   box-shadow: -1px 9px 12px 7px rgba(0, 0, 0, 0.62);
 }
 
-.page-menu {
-  padding: 10px;
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
+.page-menu{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
-#account{
-    padding-right: 10%;
+.account{
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
 }
-
-/* *********Account Log-in ********** */
-
-.dropbtn-Login {
-    background-color: gray;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown-Login {
-    position: relative;
-    display: inline-block;
-
-  }
-  
-  .dropdown-content-Login {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content-Login a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content-Login a:hover {background-color: gray}
-  
-  .dropdown-Login:hover .dropdown-content-Login {
-    display: block;
-  }
-  
-  .dropdown-Login:hover .dropbtn-Login {
-    background-color: black;
-  }
-
-/* ****************************************** */
-.dropbtn-Signup {
-    background-color: gray;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown-Signup {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content-Signup {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content-Signup a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content-Signup a:hover {background-color: gray}
-  
-  .dropdown-Signup:hover .dropdown-content-Signup {
-    display: block;
-  }
-  
-  .dropdown-Signup:hover .dropbtn-Signup {
-    background-color: black;
-  }
-
-
-/* ******************************************************* */
+.account button{
+    width: 100%;
+    height: 100%;
+}
+.account a {
+    min-width: 40%;
+    min-height: 100%;
+}
 
 #Home {
   display: flex;
@@ -222,21 +146,21 @@ h4 {
   color: black !important;
 }
 
-.img1 {
-  min-width: 375px;
-  background-image: url(/src/1.jpg);
-  background-size: cover !important;
+.img1{
+    min-width: 375px;
+    background-image: url(/src/man-holding-piggy-bank_23-2148793768.jpg);
+    background-size: cover !important;
 }
-.img2 {
-  min-width: 375px;
-  background-image: url(/src/2.avif);
-  background-size: cover !important;
+.img2{
+    min-width: 375px;
+    background-image: url(/src/thoughtful-businessman-sitting-with-open-laptop-computer-looking-worried-while-thinking-about-planning-top-view_1423-7.avif);
+    background-size: cover !important;
 }
 
-.img3 {
-  min-width: 375px;
-  background-image: url(/src/3.jpg);
-  background-size: cover !important;
+.img3{
+    min-width: 375px;
+    background-image: url(/src/businessmen-teamwork-meeting-discuss-investment_1421-4110.avif);
+    background-size: cover !important;
 }
 
 .item2 {
