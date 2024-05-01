@@ -16,8 +16,8 @@ body {
   background-color: #f1f1f1;
 }
 
-.lsdrop{
-    padding-right: 5%;
+.lsdrop {
+  padding-right: 5%;
 }
 
 div {
@@ -39,6 +39,8 @@ h4 {
   font-size: 30px;
   margin: 0;
 }
+
+
 p {
   font-size: 16px;
   margin: 0;
@@ -58,26 +60,26 @@ a {
   box-shadow: -1px 9px 12px 7px rgba(0, 0, 0, 0.62);
 }
 
-.page-menu{
-    padding: 10px;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+.page-menu {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.account{
-    padding: 10px;
-    width: 20%;
-    display: flex;
-    justify-content: space-around;
+.account {
+  padding: 10px;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
 }
-.account button{
-    width: 100%;
-    height: 100%;
+.account button {
+  width: 100%;
+  height: 100%;
 }
 .account a {
-    min-width: 40%;
-    min-height: 100%;
+  min-width: 40%;
+  min-height: 100%;
 }
 
 #Home {
@@ -109,6 +111,11 @@ h4 {
   color: white !important;
   font-family: Fira Sans;
 }
+
+h5{
+  font-size: 25px;
+}
+
 #About {
   min-height: 100vh;
 }
@@ -117,12 +124,6 @@ h4 {
   color: rgb(0, 68, 255) !important;
 }
 
-.item {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: space-around;
-}
 .img-box {
   width: 50%;
   border-radius: 10px;
@@ -147,25 +148,21 @@ h4 {
   color: rgb(20, 6, 70) !important;
 }
 
-.img1{
-    min-width: 375px;
-    background-image: url(/src/man-holding-piggy-bank_23-2148793768.jpg);
-    background-size: cover !important;
+.img1 {
+  min-width: 375px;
+  background-image: url(/src/man-holding-piggy-bank_23-2148793768.jpg);
+  background-size: cover !important;
 }
-.img2{
-    min-width: 375px;
-    background-image: url(/src/thoughtful-businessman-sitting-with-open-laptop-computer-looking-worried-while-thinking-about-planning-top-view_1423-7.avif);
-    background-size: cover !important;
-}
-
-.img3{
-    min-width: 375px;
-    background-image: url(/src/businessmen-teamwork-meeting-discuss-investment_1421-4110.avif);
-    background-size: cover !important;
+.img2 {
+  min-width: 375px;
+  background-image: url(/src/thoughtful-businessman-sitting-with-open-laptop-computer-looking-worried-while-thinking-about-planning-top-view_1423-7.avif);
+  background-size: cover !important;
 }
 
-.item2 {
-
+.img3 {
+  min-width: 375px;
+  background-image: url(/src/businessmen-teamwork-meeting-discuss-investment_1421-4110.avif);
+  background-size: cover !important;
 }
 
 .icons {
@@ -177,42 +174,59 @@ h4 {
   width: 50%;
 }
 
-.dropbtn {
-  background-color: rgba(128, 128, 128, 0.866);
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-} 
-
-.dropdown {
-  position: relative;
-  display: inline-block;
+.item {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(128, 128, 128);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  border-radius: 20px;
-  padding: 2%;
+#homefaq{
+  margin: 50px;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.question{
+  font-size: 40px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
+.answer{
+  font-size: 25px;
+  color: red !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.paragraph{
+  font-size: 20px;
+}
+
+.div-contact{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+.div-contact > .contact-info{
+  width: auto;
+  margin: auto;
+  padding: 3%;
+  text-align: center;
+  font-size: 30px;
+}
+ 
+.sub-title{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ****************Footer****************** */
+
+.footLogo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.589);
 }
