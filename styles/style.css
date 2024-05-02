@@ -140,7 +140,7 @@ h5{
   justify-content: space-around !important;
   min-width: 375px;
   width: 50%;
-  background-color: rgb(129, 183, 255);
+  background-color: rgba(23, 144, 243, 0.829);
 }
 
 .txt-box h4 {
@@ -204,7 +204,7 @@ h5{
 .div-contact{
   display: flex;
   flex-wrap: nowrap;
-  background-color: rgba(82, 166, 235, 0.589);
+  background-color: rgba(23, 144, 243, 0.829);
 }
 
 .div-contact > .contact-info{
