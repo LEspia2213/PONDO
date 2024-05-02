@@ -183,6 +183,9 @@ h5{
 
 #homefaq{
   margin: 50px;
+  background-color: rgba(235, 238, 253, 0.829);
+
+
 }
 
 .question{
@@ -195,6 +198,7 @@ h5{
   font-size: 15px;
   color: red !important;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 .paragraph{
