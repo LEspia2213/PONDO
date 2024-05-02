@@ -204,7 +204,7 @@ h5{
 .div-contact{
   display: flex;
   flex-wrap: nowrap;
-  background-color: rgba(0, 0, 0, 0.589);
+  background-color: rgba(82, 166, 235, 0.589);
 }
 
 .div-contact > .contact-info{
@@ -229,5 +229,5 @@ h5{
   justify-content: space-around;
   text-align: left;
   height: 10vh;
-  background-color: rgba(0, 0, 0, 0.589);
+  background-color: rgba(169, 170, 175, 0.589);
 }
